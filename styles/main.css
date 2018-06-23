@@ -1,0 +1,318 @@
+/* reset */
+body, html, div, ul, li, a, p, table, border, span,
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+
+}
+
+.highlight {
+    background-color: rgb(170, 167, 167);
+}
+
+
+
+.container {
+    width: 76%;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.nav {
+    background-color: darkslategray;
+    padding: 1em;
+    
+}
+
+a {
+    
+    text-decoration: none;
+    color: white;
+    
+}
+
+.ul-fisrtnav {
+    text-align: center;
+}
+
+.ul-fisrtnav  a {
+    padding: 1.3em;
+}
+
+.amadouimg {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.Section-about {
+    display: flex;
+    padding-top: 4em;
+}
+
+.Section-description {
+    margin-left: 2em;
+}
+
+button {
+    padding: 1em;
+    background-color: darkslategray;
+    border: none;
+}
+
+.blankimg {
+    width: 300px;
+    height: 200px;
+}
+
+.asidemiddle{
+    padding: 0 5px 0 5px;
+    border: 1px solid black;
+    margin: 0 10px 0 10px;
+}
+
+.asideleft {
+    border: 1px solid black;
+}
+
+.asideright{
+    border: 1px solid black;
+}
+.section-aside {
+    display: flex;
+    margin-top: 4em;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.section-footer {
+    background-color: darkslategray;
+    padding: 1em;
+    color: white;
+    clear: both;
+}
+
+a:hover {
+    background-color: lightgray;
+}
+
+
+/* About page*/
+
+
+
+.figurelongimg {
+    
+    max-width: 100%;
+} 
+
+
+.side-nav {
+    
+    background-color: darkslategray;
+    width: 82%;
+    margin-bottom: 2em;
+    text-align: left;
+}
+
+.nav-aside a {
+    border-bottom: 1px solid lightgray;
+    display: block;
+    padding: 1em;
+}
+
+
+.aside-img{
+    width: 100%;
+    margin-top: 1.6em;
+}
+
+
+.aside-nav {
+    width: 35%;
+    float: left;
+    margin-bottom: 1.6em;
+    
+}
+
+/*.nav-aside-a {
+    border-bottom: 1px solid lightgray;
+}*/
+
+.nav-aside {
+    background-color: darkslategray;
+   display: block;
+    text-decoration: none;
+    color: white;
+    padding: .8em 1em;
+    border-bottom: 1px solid white;
+
+}
+
+.nav-aside li{
+    list-style: none;
+}
+
+.blankimgn {
+    width: 100%;
+}
+
+/*.background {
+    border-bottom: 1px solid white;
+}*/
+
+.side-content {
+    float: right;
+    background-color: rgb(211, 208, 208);
+    width: 53%;
+    padding: 3.2em;
+    margin-bottom: 3em;
+   
+    
+}
+
+/* BLOG SECTION*/
+
+.blog-sectionleft {
+    background-color: lightgray;
+    width: 60%;
+    float: left;
+    margin: 2em 2em 3em 0;
+
+
+}
+
+.div-blogl {
+    width: 43%;
+    float: left;
+    background-color: whitesmoke;
+    border: 1px solid darkgray;
+    box-shadow: rgb(0, 0, 0,0.5);
+    margin: 15px 10px 10px 24px;
+    text-align: center;
+    
+
+}
+
+.div-blogr {
+      width: 43%;
+    float: left;
+    background-color: whitesmoke;
+    border: 1px solid darkgray;
+    box-shadow: rgb(0, 0, 0,0.5);
+    margin: 15px 10px 10px 24px;
+    text-align: center;
+}
+
+.div-blog_img {
+    width: 100%;
+}
+
+.div-blogleft {
+    clear: both;
+}
+
+.div-blogleft {
+     width: 43%;
+    float: left;
+    background-color: whitesmoke;
+    border: 1px solid darkgray;
+    box-shadow: rgb(0, 0, 0,0.5);
+    margin: 15px 10px 10px 24px;
+    text-align: center;
+  
+   
+}
+
+.div-blogright {
+     width: 43%;
+    float: left;
+    background-color: whitesmoke;
+    border: 1px solid darkgray;
+    box-shadow: rgb(0, 0, 0,0.5);
+    margin: 15px 10px 10px 24px;
+    text-align: center;
+}
+
+.div-blog {
+     width: 43%;
+    float: left;
+    background-color: whitesmoke;
+    border: 1px solid darkgray;
+    box-shadow: rgb(0, 0, 0,0.5);
+    margin: 15px 10px 10px 24px;
+    text-align: center;
+}
+
+.ahover {
+    color: rgb(110, 18, 110);
+     text-decoration-line: underline;
+}
+
+.blog-sectionright {
+    display: flex;
+    width: 35%;
+   
+}
+
+.imgblog-section_right {
+    width: 100%;
+}
+
+.div-blogsection_right{
+     margin-top: 3em;
+}
+
+.alink {
+    color: black;
+}
+
+/* Some long title*/
+
+.somelongtitle_img {
+    width: 100%;
+}
+
+.div-somelongtitle {
+    padding: 15px 30px 15px 30px;
+}
+
+/* Contact*/
+
+.contact-sectionleft{
+    background-color: lightgray;
+    width: 65%;
+    float: left;
+    margin: 2em 1em 3em 0;
+
+}
+
+.contact-text {
+    padding: 1em 2em 1em 2em;
+}
+
+.contact-sectionright{
+    float: right;
+    width: 32%;
+    margin: 2em 0 3em 0;
+   
+}
+
+.contactimg {
+
+    width: 100%;
+}
+
+.longimg {
+    width: 100%;
+}
+
+.clearfix::after,
+.clearfix::before {
+    display: table;
+    content: '';
+}
+
+.clearfix::after{
+    clear: both;
+}
